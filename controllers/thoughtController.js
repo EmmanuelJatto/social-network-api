@@ -32,9 +32,9 @@ module.exports = {
         try {
             const thoughtData = await Thought.create(req.body);
             const userData = await User.findOneAndUpdate(
-                { _id: req.params.userId },
-                { $addToSet: { thoughts: thoughtData._id } },
-                { runValidators: true, new: true },
+                { username: req.body.username },
+                { $push: { thoughts: thoughtData._id } },
+                { new: true },
             );
 
             if (!userData) {
