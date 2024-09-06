@@ -24,7 +24,7 @@ Run "npm i" or "npm install" to install the packages needed to run the program
 Run "npm run start" to start the program
 
 # Recording of Application
-![Walkthrough Video](https://youtu.be/HOFGkTspL4I)
+[Walkthrough Video](https://youtu.be/HOFGkTspL4I)
 
 # Questions
 Github Profile?
